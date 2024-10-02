@@ -114,7 +114,11 @@ public class InicioActivity extends AppCompatActivity {
                     } catch (Exception e) {
                         startActivity(new Intent(InicioActivity.this, Datos.class));
 
-                        throw e;
+                        try {
+                            throw e;
+                        } catch (Exception ex) {
+                            throw new RuntimeException(ex);
+                        }
                     }
 
                 }
@@ -138,13 +142,17 @@ public class InicioActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        DataEmpty();
+        try {
+            DataEmpty();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
         getUserInfo();
 
     }
 
-    private void DataEmpty() {
+    private void DataEmpty() throws Exception {
         final String id = mAuth.getCurrentUser().getUid();
 
         try {
@@ -167,7 +175,11 @@ public class InicioActivity extends AppCompatActivity {
             });
         }catch(Exception e){
 
-            throw e;
+            try {
+                throw e;
+            } catch (Exception ex) {
+                throw new RuntimeException(ex);
+            }
         }
 
     }
