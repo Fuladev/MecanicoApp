@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "347851123568",
+    "firebase_url": "https://mecanico-2d3de.firebaseio.com",
+    "project_id": "mecanico-2d3de",
+    "storage_bucket": "mecanico-2d3de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347851123568:android:dd9d8d7d413399c9a03db5",
+        "android_client_info": {
+          "package_name": "com.Mecanico.MyApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUCondZ_rqKAio-504yJ718XmysHZnGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "347851123568-207hu6aocod167agsvudc4nfr0av7gca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mecanicoapp.MecanicoApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347851123568:android:285a84d444422b42a03db5",
+        "android_client_info": {
+          "package_name": "com.example.mecemp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUCondZ_rqKAio-504yJ718XmysHZnGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "347851123568-207hu6aocod167agsvudc4nfr0av7gca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mecanicoapp.MecanicoApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347851123568:android:d3aea73b3d9ac393a03db5",
+        "android_client_info": {
+          "package_name": "com.mecanico.mecanicoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUCondZ_rqKAio-504yJ718XmysHZnGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "347851123568-207hu6aocod167agsvudc4nfr0av7gca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mecanicoapp.MecanicoApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347851123568:android:bd7ad09dd525530ea03db5",
+        "android_client_info": {
+          "package_name": "com.mecanico.mecanicoemp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUCondZ_rqKAio-504yJ718XmysHZnGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347851123568-aorunkcv8a0e21pmtl593sua5re6g273.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "347851123568-207hu6aocod167agsvudc4nfr0av7gca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mecanicoapp.MecanicoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    tools:context=".Home">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/SliderH"
+        android:layout_width="match_parent"
+        android:layout_height="130sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:iss_period="3000"
+        app:iss_delay="0"
+        app:iss_auto_cycle="true"
+        app:iss_corner_radius="60"
+        app:iss_error_image="@string/app_name"
+        tools:ignore="MissingClass">
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SliderH">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_lav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="93dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_white"
+                        android:drawableTop="@drawable/ic_lavadora_icon2"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Lavadoras"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/btn_nev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="93dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_white"
+                        android:drawableTop="@drawable/ic_nevera_1"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Neveras"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/btn_air"
+                        android:layout_width="wrap_content"
+                        android:layout_height="93dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_white"
+                        android:drawableTop="@drawable/ic_aire_sin_fondo2"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Aires"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_llav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="93dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_white"
+                        android:drawableTop="@drawable/ic_cerrajeria_2"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Cerrajeria"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/btn_mueble"
+                        android:layout_width="wrap_content"
+                        android:layout_height="93dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_white"
+                        android:drawableTop="@drawable/ic_muebles_2"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Muebles"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/btn_otros"
+                        android:layout_width="wrap_content"
+                        android:layout_height="93dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_white"
+                        android:drawableTop="@drawable/ic_others"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Otros"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

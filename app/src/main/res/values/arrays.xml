@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Paises">
+        <item>Colombia</item>
+    </string-array>
+    <string-array name="Departamentos">
+        <item>Seleccionar</item>
+        <item>Meta</item>
+    </string-array>
+    <string-array name="Ciudades_Meta">
+        <item>Seleccionar</item>
+        <item>Villavicencio</item>
+    </string-array>
+</resources>

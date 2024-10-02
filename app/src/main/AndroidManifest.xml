@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".servicios.pCargaActivity" />
+        <activity android:name=".servicios.pMaquinariaActivity" />
+        <activity android:name=".servicios.pMotosActivity" />
+        <activity android:name=".servicios.pAutosActivity" />
+        <activity android:name=".servicios.pBellezaActivity" />
+        <activity android:name=".servicios.pDoctorActivity" />
+        <activity android:name=".servicios.pObrasActivity" />
+        <activity android:name=".servicios.pCoserActivity" />
+        <activity android:name=".OtrosActivity" />
+        <activity android:name=".pruebaActivity" />
+        <activity android:name=".SelectorLogActivity" />
+        <activity android:name=".StartHomeActivity" />
+        <activity android:name=".servicios.pBikeActivity" />
+        <activity android:name=".servicios.pCompActivity" />
+        <activity android:name=".servicios.pMuebActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".servicios.pDesvActivity" />
+        <activity android:name=".servicios.pLavAutosActivity" />
+        <activity android:name=".servicios.pCerrActivity" />
+        <activity android:name=".servicios.pNevActivity" />
+        <activity android:name=".servicios.pLavActivity" />
+        <activity android:name=".servicios.pAirActivity" />
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".CreateCountActivity" />
+        <activity android:name=".InicioActivity" />
+        <activity android:name=".Datos"/>
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

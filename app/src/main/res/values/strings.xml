@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">MECANICO</string>
+    <string name="facebook_app_id">669045503671684</string>
+    <string name="fb_login_protocol_scheme">fb669045503671684</string>
+
+    <string name="txt_correo">User Email</string>
+    <string name="txt_pass">Password</string>
+    <string name="txt_olvidar">¿Olvido su contraseña?</string>
+    <string name="txt_reg">Crear Cuenta</string>
+    <string name="txt_ingresar">Ingresar</string>
+
+    <string name="txt_name">Nombre</string>
+    <string name="txt_apel">Apellido</string>
+    <string name="txt_pais">País</string>
+    <string name="txt_dep">Departamento</string>
+    <string name="txt_dir">Dirección</string>
+    <string name="txt_barr">Barrio</string>
+    <string name="txt_cel">Número de telefono</string>
+    <string name="txt_conpass">Confirmar Contraseña</string>
+
+    <string name="txt_home">HOME</string>
+    <string name="txt_motors">MOTORS</string>
+
+    <string name="dd_mm_aaaa">DD/MM/AAAA</string>
+
+    <string name="txt_home_title">¿QUE DESEA REPARAR?</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="txt_1">¿Cuándo necesitas tu servicio?</string>
+    <string name="txt_2">¿Qué marca tiene?</string>
+    <string name="txt_3">¿En que te podemos ayudar?</string>
+    <string name="txt_4">Agrega fotografias (Opcional)</string>
+    <string name="txt_enviar">Continiuar</string>
+    <string name="txt_env">Enviar</string>
+    <string name="txt_canc">Cancelar</string>
+    <string name="txt_emp">Elije la empresa</string>
+
+
+    <string name="txt_empN1">Nombre empresa</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="txt_titleMotors">¿Qué servicio desea?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">347851123568-6hi5if0asl6qnfndqlvqp3fc8b1ig8t9.apps.googleusercontent.com</string>
+
+</resources>

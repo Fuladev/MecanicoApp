@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="colorAccent">#D8240F</color>
+    <color name="letra">#53535B</color>
+    <color name="blanco">#fff</color>
+    <color name="trasparente">#00000000</color>
+    <color name="shadowstar">#F7F7F7</color>
+    <color name="shadowend">#98C5C4C4</color>
+
+    <color name="pink">#FFDEDE</color>
+</resources>

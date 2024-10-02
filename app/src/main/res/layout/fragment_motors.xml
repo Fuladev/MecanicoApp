@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Motors">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/SliderM"
+        android:layout_width="match_parent"
+        android:layout_height="130sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:iss_period="3000"
+        app:iss_delay="0"
+        app:iss_auto_cycle="true"
+        app:iss_corner_radius="60"
+        app:iss_error_image="@string/app_name"
+        tools:ignore="MissingClass">
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/blanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SliderM">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_car"
+                        android:layout_width="90sp"
+                        android:layout_height="95dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_shadow"
+                        android:drawableTop="@drawable/ic_desvare_zero"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Autos"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/btn_mbike"
+                        android:layout_width="90sp"
+                        android:layout_height="95dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_shadow"
+                        android:drawableTop="@drawable/ic_moto"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Motocicletas"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/btn_bike"
+                        android:layout_width="90sp"
+                        android:layout_height="95dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_shadow"
+                        android:drawableTop="@drawable/ic_bike_zero"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Bicicletas"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_maqui"
+                        android:layout_width="90sp"
+                        android:layout_height="95dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_shadow"
+                        android:drawableTop="@drawable/ic_maquinaria"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Maquinaria Amarilla"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/btn_carga"
+                        android:layout_width="90sp"
+                        android:layout_height="95dp"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/bg_shadow"
+                        android:drawableTop="@drawable/ic_carga"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="bottom|center"
+                        android:padding="10sp"
+                        android:text="Carga y transporte"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="10sp" />
+
+
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
