@@ -1,0 +1,12 @@
+{
+  "name": "mecanico-firebase",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "limpieza": "node scripts/limpieza-datos.mjs",
+    "limpieza:aplicar": "node scripts/limpieza-datos.mjs --apply"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}

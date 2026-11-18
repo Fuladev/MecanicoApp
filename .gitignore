@@ -12,3 +12,8 @@
 /captures
 .externalNativeBuild
 .cxx
+
+# Artefactos de release (no versionar)
+*.aab
+*.apk
+/app/release/
